@@ -1,6 +1,5 @@
 <main class="main">
   <div class="content">
-    <h1>Hello, {{ title }}</h1>
     <div class="pill-group">
       @for (
         item of [
@@ -15,8 +14,5 @@
       }
     </div>
   </div>
-  @for (profile of profiles; track profile.id) {
-    <app-profile-card [profile]="profile"> </app-profile-card>
-  }
   <router-outlet />
 </main>

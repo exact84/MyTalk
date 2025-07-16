@@ -1,1 +1,24 @@
-<p>login works!</p>
+<form class="login-form" [formGroup]="form" (ngSubmit)="onSubmit()">
+  <h1>Login</h1>
+  <label for="username"
+    >Username
+    <input
+      formControlName="username"
+      class="login-input"
+      type="text"
+      placeholder="Username"
+    />
+  </label>
+  <label for="password"
+    >Password
+    <input
+      formControlName="password"
+      class="login-input"
+      type="password"
+      placeholder="Password"
+    />
+  </label>
+  <button class="button" type="submit">Login</button>
+</form>
+
+<img class="logo-img" src="icon-bg.png" alt="logo" />
