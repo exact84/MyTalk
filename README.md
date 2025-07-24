@@ -2,6 +2,10 @@
 
 This is a simple social network.
 
+## Install cookie-service:
+
+npm install ngx-cookie-service@15.0.0 --save --legacy-peer-deps
+
 ## Development server
 
 To start a local development server, run:
